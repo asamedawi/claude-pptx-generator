@@ -1,6 +1,8 @@
-﻿# claude-pptx-generator
+# claude-pptx-generator
 
-Claude Code を使って PowerPoint を生成する。「○○について資料を作成して」と伝えると、AI が目的・対象者・所要時間などを質問する。その後、骨子を確認したうえでスライドを作成し、`output/output.pptx` を出力する。
+Claude Code を使って PowerPoint を生成する。
+
+「○○について資料を作成して」と伝えると、AI が目的・対象者・所要時間などを質問する。その後、骨子を確認したうえでスライドを作成し、`output/output.pptx` を出力する。
 
 ## 概要
 
