@@ -1,6 +1,6 @@
 # claude-pptx-generator
 
-Claude Code を使って PowerPoint 資料を生成するためのプロジェクトです。
+Claude Code と pyhon-pptx を使って PowerPoint 資料を生成するためのプロジェクトです。
 
 「○○ についての資料を作成してほしい」と依頼すると、AI がテーマを読み取り、目的・対象者・所要時間を確認したうえで骨子を作成し、合意後に `output/output.pptx` を生成します。
 
@@ -23,7 +23,7 @@ claude-pptx-generator/
 ## セットアップ
 
 - `pip install -r requirements.txt` で依存関係をインストールします。
-- `templates/template.pptx` が存在しない場合は配置します。
+- `templates/template.pptx` に使用したいPowerPointテンプレートを配置します。
 
 ## 参考文献の設定方法
 
@@ -56,6 +56,3 @@ claude-pptx-generator/
 6. AI がスライド内容を整理し、`generate_pptx.py` を実行して `output/output.pptx` を生成します。
 7. 生成後、PowerPoint が自動で開きます。
 
-## 補足
-
-AI の詳細な動作ルールは `CLAUDE.md` に定義されています。
